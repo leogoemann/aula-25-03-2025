@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px; 
+    margin: 0 auto;
+}
+
+/* NAVEGACAO */
+
+header{
+    padding: 40px 8%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: purple;
+    text-decoration: none;
+    transition: .2s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav.menu a:hover{
+    color: blue;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.btn_contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    background-color: purple;
+}
+
+.btn_contato button:hover{
+    box-shadow:0px 0px 8px blue;
+    transition: scale(1.05);
+}
+
+header.line{
+    max-width: 100vh;
+    background-color: blue;
+}
+
+/* /////////////////// */
+section.inicio{
+    padding: 40px 8%;
+}
+
+.flex{
+    display: flex;
+}
+
+/* inicio */
+
+section.inicio .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio .imagem{
+    height: 300px;
+    width: 250px;
+}
+
+.imagem img{
+    border-radius: 30%;
+}
+
+.txt1{
+    color: white;
+}
+
+.txt1 span{
+    color: blue;
+}
+
+/* TEXTO */
+
+section.texto{
+    padding: 40px 8%;
+}
+
+section.texto .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+section.texto p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* sobre */
+
+section.sobre{
+    padding: 40px 8%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt_sobre{
+    color: white;
+}
+
+.sobre .txt_sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+h2 span{
+    color: purple;
+    
+}
+
+.sobre .txt_sobre p{
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* projetos */
+
+section.projetos{
+    padding: 40px 8%;
+}
+
+section.projetos .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img_pro{
+    width: 330px;
+    height: 460px;
+    position: relative;
+    background-color: purple;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+/* contato */
+
+section.contato{
+    padding: 40px 8%;
+}
+
+section.contato .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.cntt{
+    width: 330px;
+    height: 460px;
+    background-color: purple;
+}
+
