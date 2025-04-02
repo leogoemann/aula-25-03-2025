@@ -161,6 +161,43 @@ h2 span{
     width: 350px;
 }
 
+/* especialidades */
+
+section.especialidades{
+    padding: 40px 8%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades_box{
+    color: white;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+    height: 6cm;
+    width: 10cm;
+    text-align: center;
+}
+
+
+.especialidades .especialidades_box:hover{
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+    transform: scale(1.05);
+}
+
+.especialidades .especialidades_box i{
+    font-size: 70px;
+    color: rgb(255, 0, 0));
+}
+
+.especialidades .especialidades_box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
 /* projetos */
 
 section.projetos{
