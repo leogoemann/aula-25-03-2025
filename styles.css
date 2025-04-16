@@ -138,8 +138,9 @@ section.inicio .flex{
 }
 
 .btn_index button:hover{
+    background-color: white;
     box-shadow:0px 0px 8px rgb(255, 0, 0);
-    transition: scale(1.05);
+    scale: 1.05;
 }
 
 
@@ -209,7 +210,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades_box i{
     font-size: 70px;
-    color: rgb(255, 0, 0));
+    color: rgb(255, 0, 0);
 }
 
 .especialidades .especialidades_box h3{
@@ -314,6 +315,7 @@ footer .line_footer p a{
 }
 
 .btn_social button:hover{
+    background-color: white;
     box-shadow:0px 0px 8px rgb(255, 0, 0);
-    transition: scale(1.05);
+    scale: 1.05;
 }
