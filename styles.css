@@ -23,25 +23,33 @@ body{
 /* NAVEGACAO */
 
 header{
-    padding: 40px 8%;
+    padding: 80px 8%;
 }
 
 header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 header a{
-    color: rgb(165, 2, 2);
+    color: rgb(255, 0, 0);
     text-decoration: none;
+    padding: 2px 10px;
     transition: .2s;
 }
 
-.img_nav img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
 }
 
 header nav ul{
@@ -49,12 +57,14 @@ header nav ul{
 }
 
 header nav.menu a:hover{
-    color: rgb(255, 0, 0);
+    color: black;
+    background-color: red;
+    border-radius: 5%;
 }
 
 header nav ul li{
     display: inline-block;
-    padding: 0 40px;
+    padding: 8% 80px;
 }
 
 .btn_contato button{
@@ -65,7 +75,7 @@ header nav ul li{
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
-    background-color: rgb(165, 2, 2);
+    background-color: rgb(255, 0, 0);
 }
 
 .btn_contato button:hover{
@@ -76,7 +86,7 @@ header nav ul li{
 
 /* /////////////////// */
 section.inicio{
-    padding: 40px 8%;
+    padding: 80px 8%;
 }
 
 .flex{
@@ -103,26 +113,35 @@ section.inicio .flex{
     color: white;
 }
 
+.txt1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
 .txt1 span{
     color: rgb(255, 0, 0);
 }
 
-/* TEXTO */
-
-section.texto{
-    padding: 40px 8%;
+.btn_index button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -20px;
+    transition: .2s;
 }
 
-section.texto .flex{
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
+.btn_index button:hover{
+    box-shadow:0px 0px 8px rgb(255, 0, 0);
+    transition: scale(1.05);
 }
 
-section.texto p{
-    text-align: justify;
-    font-size: 20px;
-}
 
 /* sobre */
 
