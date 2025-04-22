@@ -100,8 +100,8 @@ section.inicio .flex{
     justify-content: center;
 }
 
-.inicio .imagem{
-    height: 300px;
+.inicio .imagem img{
+    height: 250px;
     width: 250px;
 }
 
@@ -170,6 +170,10 @@ h2 span{
     
 }
 
+p span{
+    color: rgb(255, 0, 0);
+}
+
 .sobre .txt_sobre p{
     margin: 20px 0;
     text-align: justify;
@@ -216,50 +220,6 @@ section.especialidades .flex{
 .especialidades .especialidades_box h3{
     font-size: 28px;
     margin: 15px 0;
-}
-
-/* projetos */
-
-section.projetos{
-    padding: 40px 8%;
-}
-
-section.projetos .flex{
-    justify-content: space-around;
-    margin-top: 60px;
-}
-
-.img_pro{
-    width: 330px;
-    height: 460px;
-    position: relative;
-    background-color: black;
-    background-size: cover;
-    background-position: 100% 0%;
-    border-radius: 20px;
-}
-
-
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.425);
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 600;
-    color: white;
-    opacity: 0;
-    transition: .5s;
-}
-
-.overlay:hover{
-    opacity: 1;
 }
 
 h2{
